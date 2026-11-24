@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync, readFileSync } from "node:fs";
 
 const LABEL =
-  "WARNING: Do not kill your grandfather. He is the only one who knows how to drive this thing home.";
+  "WARNING: Do not introduce yourself to your mother. She will ground you for thirty years.";
 
 function main(): void {
   const bytes = Buffer.byteLength(LABEL, "utf8");
